@@ -1,42 +1,73 @@
-<body></body>
-<h1>
-    Other Coding Carers
-</h1>
-<a href="index.html" class="Home"> Home </a>
-<a href="opportunities.html" class="WebDevOpportunities"> Web Dev Opportunities </a>
-<p>
-    Web Dev is a great start but it's only one of the many different careers in digital technologies. Here are some
-    others.
-</p>
+<body>
+    <header>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+        <h1>
+            Other Coding Carers
+        </h1>
+    </header>
 
-<ul>
-    <li> Application Developer</li>
-    <li> Server engineer</li>
-    <li> Network engineer</li>
-    <li> Project manager</li>
-    <li> Systems Architect</li>
-    <li> Artificial intelligence researcher</li>
-    <li> Cyber seurity consultant (hacker)</li>
-</ul>
+    <a href="index.html" class="Home"> Home </a>
+    <a href="opportunities.html" class="WebDevOpportunities"> Web Dev Opportunities </a>
+    <p>
+        Web Dev is a great start but it's only one of the many different careers in digital technologies. Here are some
+        others.
+    </p>
+
+    <ul>
+        <li> Application Developer</li>
+        <li> Server engineer</li>
+        <li> Network engineer</li>
+        <li> Project manager</li>
+        <li> Systems Architect</li>
+        <li> Artificial intelligence researcher</li>
+        <li> Cyber seurity consultant (hacker)</li>
+    </ul>
 
 </body>
 
 <style>
+    body {
+        display: grid;
+        grid:
+            " h    n    .  " 3em " .   m    m  " auto " f    f    f  " 5em / 1fr 5fr 1fr;
+    }
+
+    header {
+        grid-area: h;
+    }
+
+    nav {
+        grid-area: n;
+    }
+
+    main {
+        grid-area: m;
+    }
+
+    footer {
+        grid-area: f;
+    }
+
     .WebDevOpportunities {
         color: rgb(162, 102, 218);
         padding-left: 5%;
     }
+
     .home {
         color: rgb(111, 111, 189);
         padding-left: 4%;
     }
+
     body {
         padding: 7%;
+        font-family: 'Edu NSW ACT Foundation', cursive;
     }
+
     a:hover {
-    color: rgb(142, 101, 157);
-    background-color: rgb(60, 5, 73);
+        color: rgb(142, 101, 157);
+        background-color: rgb(60, 5, 73);
+
     }
-
 </style>
-
