@@ -1,4 +1,7 @@
+<!doctype html>
+
 <body>
+
   <header>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +27,22 @@
     </ul>
     <img src="html-logo.svg">
 
-    <footer>
-      why Web Dev is super hard to say.
-    </footer>
   </main>
+  <footer>
+    <p>
+      why Web Dev is super hard to say.
+
+    </p>
+  </footer>
 
 </body>
 
 <style>
   body {
     display: grid;
-    grid: " .    h    n  " 3em " .    m    m  " auto " .    .    f  " 5em / 1fr 5fr 1fr;
+    grid:
+      "    h    n  " auto "    m    m  " auto "    .    f  " 5em / 5fr 6fr;
+    grid-gap: 10%;
   }
 
   header {
@@ -75,6 +83,10 @@
   .othercareer {
     color: rgb(161, 100, 219);
 
+  }
+
+  a {
+    display: block;
   }
 
   a:hover {
