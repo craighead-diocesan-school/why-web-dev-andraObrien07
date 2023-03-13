@@ -23,10 +23,31 @@
 
   </main>
   <footer>
-    why Web Dev is super hard to say.
+    Why Web Dev is super hard to say.
   </footer>
 
   <style>
+    body {
+      display: grid;
+      grid: " h    h    n " 3em " .    m  m  " auto " f    .    .  " 5em / 1fr 5fr 1fr;
+    }
+
+    header {
+      grid-area: h;
+    }
+
+    nav {
+      grid-area: n;
+    }
+
+    main {
+      grid-area: m;
+    }
+
+    footer {
+      grid-area: f;
+    }
+
     .othercareers {
       color: rgb(129, 80, 175);
       padding-left: 5%;
